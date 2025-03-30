@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom colors for this site
+				wellness: {
+					'green': '#68C3A3',
+					'blue': '#89C4F4',
+					'beige': '#F8F1E8',
+					'light': '#E9F7EF'
 				}
 			},
 			borderRadius: {
