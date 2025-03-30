@@ -1,9 +1,8 @@
-
 import React from "react";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
-import { Recipe } from "lucide-react";
+import { Utensils } from "lucide-react";
 
 interface RecipeType {
   id: string;
@@ -181,7 +180,7 @@ const Receitas = () => {
                             <CardTitle>{receita.title}</CardTitle>
                             <CardDescription className="mt-2">{receita.description}</CardDescription>
                           </div>
-                          <Recipe className="h-6 w-6 text-wellness-green" />
+                          <Utensils className="h-6 w-6 text-wellness-green" />
                         </div>
                       </CardHeader>
                       <CardContent className="flex-grow">
